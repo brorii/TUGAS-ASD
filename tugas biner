@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int x, y=1, z;
+    int a;
+    int biner[10];
+    printf("Masukkan Bilangan Biner : \n");
+    scanf("%d",&x);
+    while(x>0){
+        biner[y]=x%2;
+         x=x/2;
+         y=y+1;
+         z=y;
+    }
+    for(a=z-1;a>0;a--)
+        {
+        printf("%d",biner[a]);
+    }
+}
