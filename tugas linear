@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main()
+{
+  int array[50], cari, x, y;
+  printf (" ============================ \n");
+  printf (" = Masukan angka dalam array =\n");
+  printf (" ============================ \n");
+  scanf(" %d", &y);
+
+  printf("Masukan %d bilangan bulat (s)\n", y);
+
+  for (x = 0; x < y; x++)
+    scanf("%d", &array[x]);
+
+  printf("Masukan angka yang dicari \n");
+  scanf("%d", &cari);
+
+  for (x = 0; x < y; x++)
+  {
+    if (array[x] == cari)
+    {
+      printf("%d angka yang dicari dibaris %d.\n", cari, x+1);
+      break;
+    }
+  }
+  if (x == y)
+    printf("%d isn't present in the array.\n", cari);
+
+  return 0;
+}
