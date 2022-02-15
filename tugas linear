@@ -18,7 +18,7 @@ int main()
   {
     if (array[x] == cari)
     {
-      printf("\nAngka yang dicari adalah %d dan berada dibaris %d.\n", cari, x+1);
+      printf("\nAngka yang dicari adalah angka %d dan berada dibaris %d.\n", cari, x+1);
       break;
     }
   }
@@ -31,6 +31,6 @@ int main()
 // Ini adalah code biner, di code ini anda dapat menemukan biner angka.
 // Menu awal anda diharuskan untuk memasukan angka di dalam array.
 // Setelah itu anda memasukan angka sejumlah yang anda inputkan didalam array.
-// Setelah itu program akan menemukan angka yang anda masukan. 
+// Setelah itu program akan menemukan angka yang anda masukan.
 // Jika anda salah maka proteksi akan keluar.
 // Jika sudah program akan selesai.
