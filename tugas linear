@@ -3,12 +3,10 @@
 int main()
 {
   int array[50], cari, x, y;
-  printf (" ============================ \n");
-  printf (" = Masukan angka dalam array =\n");
-  printf (" ============================ \n");
+  printf ("Masukan angka dalam array :\n");
   scanf(" %d", &y);
 
-  printf("Masukan %d bilangan bulat (s)\n", y);
+  printf("Masukan %d bilangan (s)\n", y);
 
   for (x = 0; x < y; x++)
     scanf("%d", &array[x]);
