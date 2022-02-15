@@ -18,3 +18,8 @@ int main(){
         printf("%d",biner[a]);
     }
 }
+
+// Ini adalah code biner.
+// Pada menu awal kita memasukan bilangan biner. 
+// Setelah itu akan keluar biner bilangan tersebut.
+// Jika sudah keluar hasil biner, maka program akan selesai.
