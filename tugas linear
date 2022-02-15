@@ -28,9 +28,9 @@ int main()
   return 0;
 }
 
-//Ini adalah code biner, di code ini anda dapat menemukan biner angka.
-//Menu awal anda diharuskan untuk memasukan angka di dalam array.
-//Setelah itu anda memasukan angka sejumlah yang anda inputkan didalam array.
-//setelah itu program akan menemukan angka yang anda masukan. 
-//Jika anda salah maka proteksi akan keluar.
-//Jika sudah program akan selesai.
+// Ini adalah code biner, di code ini anda dapat menemukan biner angka.
+// Menu awal anda diharuskan untuk memasukan angka di dalam array.
+// Setelah itu anda memasukan angka sejumlah yang anda inputkan didalam array.
+// Setelah itu program akan menemukan angka yang anda masukan. 
+// Jika anda salah maka proteksi akan keluar.
+// Jika sudah program akan selesai.
