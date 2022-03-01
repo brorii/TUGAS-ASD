@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x, y, hitung, temporary, nomor[50];
+
+   printf("Masukan Jumlah Urutan : ");
+   scanf("%d",&hitung);
+   printf("Masukan %d Intergar :\n", hitung);
+   for(x=0;x<hitung;x++)
+      scanf("%d",&nomor[x]);
+   for(x=0;x<hitung;x++)
+    {
+      for(y=x+1;y<hitung;y++){
+         if(nomor[x]>nomor[y]){
+            temporary=nomor[x];
+            nomor[x]=nomor[y];
+            nomor[y]=temporary;
+         }
+      }
+   }
+
+   printf("Hasil :\n");
+   for(x=0;x<hitung;x++)
+      printf(" %d",nomor[x]);
+
+   return 0;
+}
