@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+   int x, j, hitung, temporary, nomor[50];
+   printf("Masukan Jumlah Urutan : ");
+   scanf("%d",&hitung);
+   printf("Masukan %d Integar : \n", hitung);
+   for(x=0;x<hitung;x++)
+      scanf("%d",&nomor[x]);
+   for(x=1;x<hitung;x++){
+      temporary=nomor[x];
+      j=x-1;
+      while((temporary<nomor[j])&&(j>=0)){
+         nomor[j+1]=nomor[j];
+         j=j-1;
+      }
+      nomor[j+1]=temporary;
+   }
+
+   printf("Hasil : \n");
+   for(x=0;x<hitung;x++)
+      printf(" %d",nomor[x]);
+
+   return 0;
+}
